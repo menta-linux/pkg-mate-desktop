@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_install:
+	rm -f debian/tmp/usr/lib/*/*.la 
+	rm -rf debian/tmp/usr/share/omf/
+	dh_install --list-missing
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		--disable-static \
+		--disable-scrollkeeper \
+		--disable-schemas-compile \
+		--enable-gtk-doc
+
+override_dh_strip:
+	dh_strip --dbg-package=mate-desktop-dbg
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..
