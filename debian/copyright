@@ -310,7 +310,7 @@ License: MIT-X11
 Files: debian/*
 Copyright: 2011-2013, Stefano Karapetsas <stefano@karapetsas.com>
            2013, Mike Gabriel <sunweaver@debian.org>
-License: LGPL-2+
+License: GPL-2+ or LGPL-2+ or Expat
 
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
