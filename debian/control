@@ -22,7 +22,7 @@ Build-Depends: debhelper (>= 9),
                python-support,
                libglib2.0-doc,
                libgtk2.0-doc,
-               mate-common
+               mate-common,
 Standards-Version: 3.9.4
 Homepage: http://www.mate-desktop.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mate/mate-desktop.git;a=summary
@@ -30,6 +30,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-mate/mate-desktop.git
 
 Package: mate-desktop
 Architecture: any
+Multi-Arch: foreign
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          libunique-1.0-0,
@@ -51,7 +52,9 @@ Description: Library with common API for various MATE modules (common files)
 
 Package: libmate-desktop-2-17
 Architecture: any
-Pre-Depends: multiarch-support
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends},
+             multiarch-support,
 Depends: ${misc:Depends},
          ${shlibs:Depends},
 Provides: libmatedesktop
@@ -64,6 +67,7 @@ Description: Library with common API for various MATE modules (library)
 Package: libmate-desktop-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          libmate-desktop-2-17 (= ${binary:Version}),
@@ -77,6 +81,7 @@ Description: Library with common API for various MATE modules (development files
 Package: libmate-desktop-doc
 Section: doc
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Conflicts: libmatedesktop-doc
 Description: Library with common API for various MATE modules (documentation files)
@@ -88,6 +93,7 @@ Package: mate-desktop-dbg
 Section: debug
 Priority: extra
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends},
          mate-desktop (= ${binary:Version}),
          libmate-desktop-2-17 (= ${binary:Version}),
