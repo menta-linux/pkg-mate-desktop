@@ -1,7 +1,10 @@
 Source: mate-desktop
 Section: x11
 Priority: optional
-Maintainer: Stefano Karapetsas <stefano@karapetsas.com>
+Maintainer: MATE Packaging Team <pkg-mate-team@lists.alioth.debian.org>
+Uploaders: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Mike Gabriel <sunweaver@debian.org>,
 Build-Depends: debhelper (>= 9),
                dh-autoreconf,
                intltool,
@@ -22,8 +25,8 @@ Build-Depends: debhelper (>= 9),
                mate-common
 Standards-Version: 3.9.4
 Homepage: http://www.mate-desktop.org/
-Vcs-Browser: https://github.com/mate-desktop/debian-packages
-Vcs-Git: git://github.com/mate-desktop/debian-packages.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mate/mate-desktop.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-mate/mate-desktop.git
 
 Package: mate-desktop
 Architecture: any
@@ -32,7 +35,7 @@ Depends: ${misc:Depends},
          libunique-1.0-0,
          hicolor-icon-theme,
          libmate-desktop-2-17,
-         mate-desktop-common (= ${source:Version})
+         mate-desktop-common (= ${source:Version}),
 Conflicts: mate-desktop-gnome
 Description: Library with common API for various MATE modules
  This package contains the library with common API for various MATE modules.
@@ -50,7 +53,7 @@ Package: libmate-desktop-2-17
 Architecture: any
 Pre-Depends: multiarch-support
 Depends: ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Provides: libmatedesktop
 Conflicts: libmatedesktop
 Description: Library with common API for various MATE modules (library)
@@ -64,7 +67,7 @@ Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          libmate-desktop-2-17 (= ${binary:Version}),
-         libstartup-notification0-dev
+         libstartup-notification0-dev,
 Conflicts: libmatedesktop-dev
 Description: Library with common API for various MATE modules (development files)
  This package contain the library with common API for various MATE modules.
@@ -87,7 +90,7 @@ Priority: extra
 Architecture: any
 Depends: ${misc:Depends},
          mate-desktop (= ${binary:Version}),
-         libmate-desktop-2-17 (= ${binary:Version})
+         libmate-desktop-2-17 (= ${binary:Version}),
 Description: Library with common API for various MATE modules (debugging symbols)
  This package contains debugging symbols for mate-desktop and the
  libmate-desktop library. It is provided to help debugging problems.
