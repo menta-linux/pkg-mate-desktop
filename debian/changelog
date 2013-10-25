@@ -1,6 +1,6 @@
-mate-desktop (1.6.1-1) unstable; urgency=low
+mate-desktop (1.6.1-1) UNRELEASED; urgency=low
 
-  * Initial release.
+  * Initial release. (Closes: #708385).
 
  -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 12 May 2013 20:58:54 +0200
 
