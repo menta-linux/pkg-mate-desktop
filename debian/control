@@ -39,14 +39,26 @@ Depends: ${misc:Depends},
          mate-desktop-common (= ${source:Version}),
 Conflicts: mate-desktop-gnome
 Description: Library with common API for various MATE modules
- This package contains the library with common API for various MATE modules.
+ mate-desktop contains the libmate-desktop library, the mate-about
+ program as well as some desktop-wide documents.
+ .
+ The libmate-desktop library provides API shared by several applications
+ on the desktop, but that cannot live in the platform for various
+ reasons.
+ .
+ The mate-about program helps find which version of MATE is installed.
 
 Package: mate-desktop-common
 Architecture: all
 Depends: ${misc:Depends}
 Replaces: mate-desktop (<< 1.1.1-1)
 Description: Library with common API for various MATE modules (common files)
- This package contains the library with common API for various MATE modules.
+ mate-desktop contains the libmate-desktop library, the mate-about
+ program as well as some desktop-wide documents.
+ .
+ The libmate-desktop library provides API shared by several applications
+ on the desktop, but that cannot live in the platform for various
+ reasons.
  .
  This package contains the architecture independent files.
 
@@ -60,7 +72,9 @@ Depends: ${misc:Depends},
 Provides: libmatedesktop
 Conflicts: libmatedesktop
 Description: Library with common API for various MATE modules (library)
- This package contains the library with common API for various MATE modules.
+ The libmate-desktop library provides API shared by several applications
+ on the desktop, but that cannot live in the platform for various
+ reasons.
  .
  The package contains the library.
 
@@ -74,7 +88,9 @@ Depends: ${misc:Depends},
          libstartup-notification0-dev,
 Conflicts: libmatedesktop-dev
 Description: Library with common API for various MATE modules (development files)
- This package contain the library with common API for various MATE modules.
+ The libmate-desktop library provides API shared by several applications
+ on the desktop, but that cannot live in the platform for various
+ reasons.
  .
  This package contains the development files.
 
@@ -85,7 +101,9 @@ Multi-Arch: foreign
 Depends: ${misc:Depends}
 Conflicts: libmatedesktop-doc
 Description: Library with common API for various MATE modules (documentation files)
- This package contains the library with common API for various MATE modules.
+ The libmate-desktop library provides API shared by several applications
+ on the desktop, but that cannot live in the platform for various
+ reasons.
  .
  This package contains the documentation files.
 
