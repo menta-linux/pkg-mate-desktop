@@ -1,6 +1,5 @@
-mate-desktop (1.6.1-1) UNRELEASED; urgency=low
+mate-desktop (1.6.1-1) unstable; urgency=low
 
   * Initial release. (Closes: #708385).
 
- -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 12 May 2013 20:58:54 +0200
-
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 30 Oct 2013 14:26:14 +0100
