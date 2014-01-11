@@ -1,3 +1,11 @@
+mate-desktop (1.6.1-3) UNRELEASED; urgency=low
+
+  * debian/control:
+    + Improve packages relations. Don't use Conflicts: field anymore. Rather
+      use Breaks: and Replaces: fields instead.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 11 Jan 2014 16:59:27 +0100
+
 mate-desktop (1.6.1-2) unstable; urgency=low
 
   * debian/control:
