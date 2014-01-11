@@ -1,3 +1,11 @@
+mate-desktop (1.6.1-2) UNRELEASED; urgency=low
+
+  * debian/control:
+    + Build-depend on rarian-compat to fix FTBFS without internet connection.
+      (Closes: #734910).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 11 Jan 2014 15:52:23 +0100
+
 mate-desktop (1.6.1-1) unstable; urgency=low
 
   * Initial release. (Closes: #708385).
