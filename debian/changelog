@@ -3,6 +3,8 @@ mate-desktop (1.6.1-2) UNRELEASED; urgency=low
   * debian/control:
     + Build-depend on rarian-compat to fix FTBFS without internet connection.
       (Closes: #734910).
+  * debian/rules:
+    + Use dh-autoreconf to fix FTBFS on ppc64el. (Closes: #734909).
 
  -- Mike Gabriel <sunweaver@debian.org>  Sat, 11 Jan 2014 15:52:23 +0100
 
