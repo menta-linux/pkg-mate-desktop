@@ -1,3 +1,13 @@
+mate-desktop (1.6.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/copyright:
+    + Add/update license stanza for autotools files.
+    + Add Upstream-Contact: field.
+    + Add license stanza for new tool: mate-conf-import.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 15 Jan 2014 12:18:55 +0100
+
 mate-desktop (1.6.1-3) unstable; urgency=low
 
   * debian/control:
