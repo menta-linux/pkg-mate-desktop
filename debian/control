@@ -24,6 +24,7 @@ Build-Depends: debhelper (>= 9),
                mate-common,
                rarian-compat,
                yelp-tools,
+               libdconf-dev (>= 0.10.0),
 Standards-Version: 3.9.5
 Homepage: http://www.mate-desktop.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mate/mate-desktop.git;a=summary
