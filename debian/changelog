@@ -1,6 +1,20 @@
 mate-desktop (1.8.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Repack upstream tarball and omit non-DFSG (GFDL-1.1) files.
+  * debian/patches:
+    + Add patch 2001_omit-gfdl-licensed-user-guide.patch. Skip
+      user-guide/ subfolder during configure/build.
+  * debian/watch:
+    + Use tagged CGit tarball snapshots as upstream source.
+    + Mangle Debian version.
+  * debian/rules:
+    + Build package using autogen.sh.
+  * debian/control:
+    + Add yelp-tools as B-D (for autogen.sh).
+    + Add libdconf-dev (>= 0.10.0) as B-D.
+  * debian/copyright:
+    + Adapt to new upstream version.
 
  -- Mike Gabriel <sunweaver@debian.org>  Wed, 05 Mar 2014 23:16:41 +0100
 
