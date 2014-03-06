@@ -1,3 +1,9 @@
+mate-desktop (1.8.0+dfsg1-3) UNRELEASED; urgency=low
+
+  * Continue development...
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 06 Mar 2014 22:07:57 +0100
+
 mate-desktop (1.8.0+dfsg1-2) unstable; urgency=low
 
   * Split up mate-desktop-dbg into two bin:packages.
