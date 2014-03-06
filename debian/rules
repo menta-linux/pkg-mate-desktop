@@ -23,7 +23,8 @@ override_dh_auto_configure:
 		--enable-gtk-doc
 
 override_dh_strip:
-	dh_strip --dbg-package=mate-desktop-dbg
+	dh_strip -pmate-desktop --dbg-package=mate-desktop-dbg
+	dh_strip -plibmate-desktop-2-17 --dbg-package=libmate-desktop-2-17-dbg
 
 get-orig-source: $(PKG)_$(VER)$(DTYPE).orig.tar.xz $(info I: $(PKG)_$(VER)$(DTYPE))
 	@
