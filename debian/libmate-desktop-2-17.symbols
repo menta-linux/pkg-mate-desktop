@@ -36,6 +36,10 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
  mate_bg_set_pixmap_as_root@Base 1.6.1
  mate_bg_set_pixmap_as_root_with_crossfade@Base 1.6.1
  mate_bg_set_placement@Base 1.6.1
+ mate_dconf_list_subdirs@Base 1.8.0
+ mate_dconf_recursive_reset@Base 1.8.0
+ mate_dconf_sync@Base 1.8.0
+ mate_dconf_write_sync@Base 1.8.0
  mate_desktop_item_attr_exists@Base 1.6.1
  mate_desktop_item_clear_localestring@Base 1.6.1
  mate_desktop_item_clear_section@Base 1.6.1
@@ -91,6 +95,7 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
  mate_desktop_thumbnail_md5@Base 1.6.1
  mate_desktop_thumbnail_path_for_uri@Base 1.6.1
  mate_desktop_thumbnail_scale_down_pixbuf@Base 1.6.1
+ mate_gsettings_schema_exists@Base 1.8.0
  mate_rr_config_applicable@Base 1.6.1
  mate_rr_config_apply@Base 1.6.1
  mate_rr_config_apply_from_filename@Base 1.6.1
