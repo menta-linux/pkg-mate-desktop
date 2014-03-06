@@ -88,20 +88,7 @@ Files: tools/mpaste
 Copyright: 2013, Steve Zesch
 License: GPL-2+
 
-Files: desktop-docs/gpl/*
-       desktop-docs/fdl/*
-       desktop-docs/lgpl/*
-Copyright: *No copyright*
-License: GPL-2+ or LGPL-2+
-Comment:
- Appropriately assume either license found in COPYING or license found in
- COPYING.LIB file.
-
-Files: desktop-docs/Makefile.am
-       desktop-docs/gpl/Makefile.am
-       desktop-docs/fdl/Makefile.am
-       desktop-docs/lgpl/Makefile.am
-       docs/Makefile.am
+Files: docs/Makefile.am
        docs/reference/Makefile.am
        docs/reference/mate-desktop/html/mate-desktop-Miscellaneous-Functions.html
        docs/reference/mate-desktop/html/mate-desktop-mate-rr-output.html

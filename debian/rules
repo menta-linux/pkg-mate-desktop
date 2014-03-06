@@ -41,6 +41,7 @@ $(PKG)_$(VER)$(DTYPE).orig.tar.xz:
 	cd $(PKG)-$(VER) \
 	    && find . -depth -type d -name 'windows' -exec $(RM) -r {} \; -printf 'removed %p\n' \
 	    && $(RM) -r -v \
+	        desktop-docs \
 	        user-guide
 	$(RM) -v $(PKG)_$(VER).orig.tar.*
 	@echo "# Packing..."
