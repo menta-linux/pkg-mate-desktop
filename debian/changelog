@@ -13,6 +13,7 @@ mate-desktop (1.8.0+dfsg1-1) UNRELEASED; urgency=low
     + Mangle Debian version.
   * debian/rules:
     + Build package using autogen.sh.
+    + Drop unknown configure option --disable-scrollkeeper.
   * debian/control:
     + Add yelp-tools as B-D (for autogen.sh).
     + Add libdconf-dev (>= 0.10.0) as B-D.
