@@ -6,7 +6,7 @@ mate-desktop (1.8.0+dfsg1-1) UNRELEASED; urgency=low
     + Remove obsolete license files in desktop-docs/ subfolder from package.
   * debian/patches:
     + Add patch 2001_omit-gfdl-licensed-user-guide.patch. Skip
-      user-guide/ subfolder during configure/build.
+      user-guide/ and desktop-docs/ subfolders during configure/build.
   * Update debian/libmate-desktop-2-17.symbols file.
   * debian/watch:
     + Use tagged CGit tarball snapshots as upstream source.
@@ -15,11 +15,11 @@ mate-desktop (1.8.0+dfsg1-1) UNRELEASED; urgency=low
     + Build package using autogen.sh.
     + Drop unknown configure option --disable-scrollkeeper.
   * debian/control:
-    + Add yelp-tools as B-D (for autogen.sh).
-    + Add libdconf-dev (>= 0.10.0) as B-D.
+    + Add B-D: yelp-tools (for autogen.sh).
+    + Add B-D: libdconf-dev (>= 0.10.0).
   * debian/copyright:
     + Adapt to new upstream version.
-  * debian/mate-desktop-common.install: adapt to new upstream release
+  * debian/mate-desktop-common.install: Adapt to new upstream release.
   * lintian: Remove unused overrides.
 
  -- Mike Gabriel <sunweaver@debian.org>  Wed, 05 Mar 2014 23:16:41 +0100
