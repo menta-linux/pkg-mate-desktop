@@ -149,6 +149,8 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends},
          libmate-desktop-2-17 (= ${binary:Version}),
+Breaks: mate-desktop-dbg (<= 1.8.0+dfsg1-2),
+Replaces: mate-desktop-dbg (<= 1.8.0+dfsg1-2),
 Description: Library with common API for various MATE modules (library debugging symbols)
  The MATE component mate-desktop contains the libmate-desktop library, the
  mate-about program, as well as some desktop-wide documents.
