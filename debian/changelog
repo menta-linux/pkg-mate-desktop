@@ -1,4 +1,4 @@
-mate-desktop (1.8.0+dfsg1-3) UNRELEASED; urgency=low
+mate-desktop (1.8.0+dfsg1-3) unstable; urgency=low
 
   * debian/control:
     + Add Breaks:'n'Replaces: fields for previous dbg:packages.
@@ -6,7 +6,7 @@ mate-desktop (1.8.0+dfsg1-3) UNRELEASED; urgency=low
   * debian/copyright:
     + Point to git.mate-desktop.org in Source: field.
 
- -- Mike Gabriel <sunweaver@debian.org>  Thu, 06 Mar 2014 22:07:57 +0100
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 13 Mar 2014 16:24:22 +0100
 
 mate-desktop (1.8.0+dfsg1-2) unstable; urgency=low
 
