@@ -1,8 +1,10 @@
 mate-desktop (1.8.0+dfsg1-3) UNRELEASED; urgency=low
 
-  * Continue development...
   * debian/control:
     + Add Breaks:'n'Replaces: fields for previous dbg:packages.
+    + Drop B-D: mate-doc-utils, mate-doc-utils-gnome.
+  * debian/copyright:
+    + Point to git.mate-desktop.org in Source: field.
 
  -- Mike Gabriel <sunweaver@debian.org>  Thu, 06 Mar 2014 22:07:57 +0100
 
