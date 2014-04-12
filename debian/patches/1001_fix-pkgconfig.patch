@@ -1,5 +1,6 @@
 Description: mate-desktop-2.0.pc: Fix dependency specifications
 Author: Aaron M. Ucko <ucko@debian.org>
+Forwarded: https://github.com/mate-desktop/mate-desktop/issues/108
 Abstract:
  As it stands, mate-desktop-2.0.pc specifies
  .
