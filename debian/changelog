@@ -1,7 +1,16 @@
 mate-desktop (1.8.0+dfsg1-4) UNRELEASED; urgency=low
 
+  [ Stefano Karapetsas ]
   * debian/control:
-    + Removeg unused gnome-doc-utils from Build-Depends.
+    + Remove unused gnome-doc-utils from Build-Depends.
+
+  [ Mike Gabriel ]
+  * debian/patches:
+    + Add 1001_fix-pkgconfig.patch. Fix dependency specifications for
+      mate-desktop-2.0-pc. (Closes: #744086).
+  * debian/control:
+    + Drop D (libmate-desktop-dev): libstartup-notification0-dev.
+    + Add D (libmate-desktop-dev): libgdk-pixbuf2.0-dev, libgtk2.0-dev.
 
  -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 17 Mar 2014 17:49:20 +0100
 
