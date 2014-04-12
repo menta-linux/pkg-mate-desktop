@@ -11,6 +11,10 @@ mate-desktop (1.8.0+dfsg1-4) UNRELEASED; urgency=low
   * debian/control:
     + Drop D (libmate-desktop-dev): libstartup-notification0-dev.
     + Add D (libmate-desktop-dev): libgdk-pixbuf2.0-dev, libgtk2.0-dev.
+  * debian/rules:
+    + Turn on compiler commands during package build (configure option:
+      --disable-silent-rules).
+    + Enable parallel builds.
 
  -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 17 Mar 2014 17:49:20 +0100
 
