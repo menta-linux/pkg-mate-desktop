@@ -1,4 +1,4 @@
-mate-desktop (1.8.0+dfsg1-4) UNRELEASED; urgency=low
+mate-desktop (1.8.0+dfsg1-4) unstable; urgency=low
 
   [ Stefano Karapetsas ]
   * debian/control:
@@ -16,7 +16,7 @@ mate-desktop (1.8.0+dfsg1-4) UNRELEASED; urgency=low
       --disable-silent-rules).
     + Enable parallel builds.
 
- -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 17 Mar 2014 17:49:20 +0100
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 13 Apr 2014 00:11:52 +0200
 
 mate-desktop (1.8.0+dfsg1-3) unstable; urgency=low
 
