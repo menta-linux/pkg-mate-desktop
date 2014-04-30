@@ -1,3 +1,12 @@
+mate-desktop (1.8.0+dfsg1-5) unstable; urgency=low
+
+  * debian/changelog:
+    + Fix typo (opinion -> option).
+  * debian/rules:
+    + Fix copy+paste error in tarball repacking code.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 30 Apr 2014 14:34:27 +0200
+
 mate-desktop (1.8.0+dfsg1-4) unstable; urgency=low
 
   [ Stefano Karapetsas ]
