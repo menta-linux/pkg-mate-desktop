@@ -1,3 +1,11 @@
+mate-desktop (1.8.1+dfsg1-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/patches:
+    + Drop 1001_fix-pkgconfig.patch. Applied upstream.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 18 May 2014 23:34:16 +0200
+
 mate-desktop (1.8.0+dfsg1-5) unstable; urgency=low
 
   * debian/changelog:
