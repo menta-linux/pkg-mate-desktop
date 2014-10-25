@@ -1,3 +1,26 @@
+mate-desktop (1.8.1+dfsg1-2) unstable; urgency=medium
+
+  [ Vangelis Mouhtsis ]
+  * debian/rules:
+    + Replace on dh_install --list-missing -> --fail-missing
+  * debian/control:
+    + Bump Standards: to 3.9.6. No changes needed.
+
+  [ Mike Gabriel ]
+  * debian/control:
+    + Drop deprecated B-D: python-support.
+    + Add B-D: dh-python.
+    + Drop complete Pre-D field (libmate-desktop-2-17).
+  * debian/rules:
+    + Build with python2.
+    + Use upstream's NEWS file as upstream ChangeLog.
+  * debian/copyright:
+    + Rework completely. Add missing files, hanle renamed files since one
+      of the last upstream releases, drop information for not-existing-anymore
+      files.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 25 Oct 2014 23:07:44 +0200
+
 mate-desktop (1.8.1+dfsg1-1) unstable; urgency=low
 
   * New upstream release.
