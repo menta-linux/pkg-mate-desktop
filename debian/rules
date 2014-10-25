@@ -9,7 +9,7 @@ VER  ?= $(subst $(DTYPE),,$(UVER))
 DHFLAGS=--parallel
 
 %:
-	dh $@ $(DHFLAGS)
+	dh $@ $(DHFLAGS) --with python2
 
 override_dh_install:
 	rm -f debian/tmp/usr/lib/*/*.la 
