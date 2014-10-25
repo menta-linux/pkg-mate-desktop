@@ -16,6 +16,9 @@ override_dh_install:
 	rm -rf debian/tmp/usr/share/omf/
 	dh_install --fail-missing
 
+override_dh_installchangelogs:
+	dh_installchangelogs NEWS
+
 override_dh_auto_configure:
 	# upstream tarball is without configure. autogen.sh will create it
 	NOCONFIGURE=1 ./autogen.sh
