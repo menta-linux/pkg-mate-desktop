@@ -1,3 +1,11 @@
+mate-desktop (1.8.2+dfsg1-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Including the GLib >= 2.43 compatibility patch. (Closes: #779570,
+      LP:#1426327).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 13 Mar 2015 16:19:52 +0100
+
 mate-desktop (1.8.1+dfsg1-2) unstable; urgency=medium
 
   [ Vangelis Mouhtsis ]
