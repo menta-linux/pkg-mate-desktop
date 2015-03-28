@@ -1,3 +1,14 @@
+mate-desktop (1.8.1+dfsg1-3) unstable; urgency=medium
+
+  [ Mike Gabriel ]
+  * debian/patches:
+    + Add 0001_fix-pkexec-calls-in-desktop-launcher.patch. In
+      mate-desktop-item.c: Add a child watch if "do not reap child" flag is set.
+      This avoids double forking with desktop files that have "exec pkexec ..."
+      inside. (Closes: #781246).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 28 Mar 2015 14:53:31 +0100
+
 mate-desktop (1.8.1+dfsg1-2) unstable; urgency=medium
 
   [ Vangelis Mouhtsis ]
