@@ -92,6 +92,7 @@ Depends: ${misc:Depends},
          libstartup-notification0-dev,
          libgdk-pixbuf2.0-dev,
          libgtk2.0-dev,
+         libdconf-dev,
 Breaks: libmatedesktop-dev
 Replaces: libmatedesktop-dev
 Description: Library with common API for various MATE modules (development files)
