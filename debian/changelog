@@ -1,3 +1,12 @@
+mate-desktop (1.8.2+dfsg1-3) unstable; urgency=medium
+
+  * Upload to unstable.
+  * debian/control:
+    + Add to D (libmate-desktop-dev): libstartup-notification0-dev,
+      libdconf-dev.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 21 May 2015 05:24:28 +0200
+
 mate-desktop (1.8.2+dfsg1-2) experimental; urgency=medium
 
   * Incorporate changes from 1.8.1+dfsg1-3 and re-upload to experimental.
