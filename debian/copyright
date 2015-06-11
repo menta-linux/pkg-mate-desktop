@@ -56,6 +56,28 @@ Files: libmate-desktop/mate-gsettings.c
 Copyright: 2013, Stefano Karapetsas <stefano@karapetsas.com>
 License: GPL-2+
 
+Files: libmate-desktop/mate-aboutdialog.c
+       libmate-desktop/mate-aboutdialog.h
+       libmate-desktop/mate-colorbutton.c
+       libmate-desktop/mate-colorbutton.h
+Copyright: 2001. CodeFactory AB
+           2001, 2002 Anders Carlsson
+           2003, 2004 Matthias Clasen <mclasen@redhat.com>
+           2014 Stefano Karapetsas <stefano@karapetsas.com>
+License: GPL-2+
+
+Files: libmate-desktop/mate-colorsel.c
+       libmate-desktop/mate-colorsel.h
+       libmate-desktop/mate-colorseldialog.c
+       libmate-desktop/mate-colorseldialog.h
+Copyright: 2000 Red Hat, Inc.
+           1995-1997 Peter Mattis, Spencer Kimball and Josh MacDonald
+License: GPL-2+
+
+Files: libmate-desktop/mate-rr-output-info.c
+Copyright: 2010 Giovanni Campagna
+License: GPL-2+
+
 Files: libmate-desktop/mate-rr-labeler.c
        libmate-desktop/mate-rr-labeler.h
        libmate-desktop/private.h
@@ -87,6 +109,10 @@ Files: man/mate-gsettings-toggle.1
 Copyright: 2014, Sander Sweers <infirit@gmail.com>
 License: GPL-2+
 
+Files: tools/mate-color-select.c
+Copyright: 2014, Stefano Karapetsas <stefano@karapetsas.com>
+License: GPL-2+
+
 Files: tools/mate-conf-import
 Copyright: 2013, Stefano Karapetsas <stefano@karapetsas.com>
 License: LGPL-2+
@@ -96,6 +122,7 @@ Copyright: 2013, Steve Zesch
 License: GPL-2+
 
 Files: libmate-desktop/test-ditem.c
+       tools/mate-color-select.desktop.in.in
 Copyright: *No copyright*
 License: GPL-2+
 
