@@ -20,7 +20,6 @@ Build-Depends: debhelper (>= 9),
                libglib2.0-doc,
                libgtk2.0-doc,
                mate-common,
-               rarian-compat,
                yelp-tools,
                libdconf-dev (>= 0.10.0),
 Standards-Version: 3.9.6
