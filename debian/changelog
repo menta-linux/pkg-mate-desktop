@@ -1,3 +1,22 @@
+mate-desktop (1.10.0+dfsg1-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * debian/control:
+    + Remove obsolete build dependency rarian-compat.
+    + Remove obsolete build dependency libunique.    
+    + Add gir1.2-mate-desktop package.
+    + Add Pre-Depends to libmate-desktop-2-17.
+  * debian/copyright:
+    + Update for new upstream release.
+  * debian/patches:
+    + Drop 0001_fix-pkexec-calls-in-desktop-launcher.patch. Applied
+    upstream.
+    + Drop 2001_omit-gfdl-licensed-user-guide.patch. Applied upstream.
+  * debian/rules:
+    + Add --with-gtk=2.0 and --enable-mpaste.
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 10 Jun 2015 22:40:48 +0100
+
 mate-desktop (1.8.2+dfsg1-3) unstable; urgency=medium
 
   * Upload to unstable.
