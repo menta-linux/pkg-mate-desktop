@@ -37,6 +37,7 @@ Depends: hicolor-icon-theme,
          mate-desktop-common (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
+         python,
 Breaks: mate-desktop-gnome,
 Replaces: mate-desktop-gnome,
 Description: Library with common API for various MATE modules
