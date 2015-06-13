@@ -1,0 +1,12 @@
+Description: Add keywords to .desktop file
+Author: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+
+--- a/tools/mate-color-select.desktop.in.in
++++ b/tools/mate-color-select.desktop.in.in
+@@ -7,5 +7,6 @@
+ Terminal=false
+ Type=Application
+ Categories=GTK;Graphics;
++Keywords=MATE;color;chooser;pick;palette;screen;selection;
+ OnlyShowIn=MATE;
+ StartupNotify=false
