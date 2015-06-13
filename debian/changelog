@@ -1,4 +1,4 @@
-mate-desktop (1.10.0-1~exp1) UNRELEASED; urgency=low
+mate-desktop (1.10.0-1~exp1) experimental; urgency=low
 
   [ Martin Wimpress ]
   * New upstream release.
@@ -29,9 +29,15 @@ mate-desktop (1.10.0-1~exp1) UNRELEASED; urgency=low
   * debian/copyright:
     + Remove info for mate-gsettings-toggle*. Not shipped in this release
       anymore.
+    + Update copyright year for debian/*.
   * Update .symbols file(s).
+  * man pages:
+    + Provide missing man pages for mpaste and mate-color-select.
+  * debian/patches:
+    + Add 1001_desktop-entry-lacks-keywords.patch. Add keywords to
+      .desktop file.
 
- -- Martin Wimpress <code@flexion.org>  Wed, 10 Jun 2015 22:40:48 +0100
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 13 Jun 2015 16:17:33 +0200
 
 mate-desktop (1.8.2+dfsg1-3) unstable; urgency=medium
 
