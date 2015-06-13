@@ -1,5 +1,6 @@
-mate-desktop (1.10.0+dfsg1-1) UNRELEASED; urgency=low
+mate-desktop (1.10.0-1~exp1) UNRELEASED; urgency=low
 
+  [ Martin Wimpress ]
   * New upstream release.
   * debian/control:
     + Remove obsolete build dependency rarian-compat.
@@ -10,10 +11,25 @@ mate-desktop (1.10.0+dfsg1-1) UNRELEASED; urgency=low
     + Update for new upstream release.
   * debian/patches:
     + Drop 0001_fix-pkexec-calls-in-desktop-launcher.patch. Applied
-    upstream.
+      upstream.
     + Drop 2001_omit-gfdl-licensed-user-guide.patch. Applied upstream.
   * debian/rules:
     + Add --with-gtk=2.0 and --enable-mpaste.
+
+  [ Mike Gabriel ]
+  * debian/rules:
+    + Package is not non-DFSG anymore, simply download tarball from upstream
+      Git via get-orig-source rule.
+  * debian/watch:
+    + Drop dversionmangle, as package is now DFSG-compliant.
+  * debian/control:
+    + Versioned B-D: mate-common (>= 1.10).
+    + Add Martin Wimpress to Uploaders: field.
+    + Add D (mate-desktop): python (for the mpaste script).
+  * debian/copyright:
+    + Remove info for mate-gsettings-toggle*. Not shipped in this release
+      anymore.
+  * Update .symbols file(s).
 
  -- Martin Wimpress <code@flexion.org>  Wed, 10 Jun 2015 22:40:48 +0100
 
