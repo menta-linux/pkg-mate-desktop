@@ -194,7 +194,7 @@ Comment:
 
 Files: debian/*
 Copyright: 2011-2013, Stefano Karapetsas <stefano@karapetsas.com>
-           2013, Mike Gabriel <sunweaver@debian.org>
+           2013-2015, Mike Gabriel <sunweaver@debian.org>
 License: GPL-2+ or LGPL-2+ or Expat
 
 License: GPL-2+
