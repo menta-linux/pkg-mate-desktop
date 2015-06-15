@@ -165,6 +165,7 @@ Description: Library with common API for various MATE modules (library debugging
  by gdb.
 
 Package: gir1.2-mate-desktop
+Section: introspection
 Architecture: any
 Depends: ${gir:Depends},
          ${misc:Depends},
