@@ -1,3 +1,11 @@
+mate-desktop (1.10.1-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * debian/patches:
+    + Drop 1001_desktop-entry-lacks-keywords.patch. Applied upstream.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 17 Jul 2015 13:54:14 +0200
+
 mate-desktop (1.10.0-1~exp1) experimental; urgency=low
 
   [ Martin Wimpress ]
