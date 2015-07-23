@@ -105,6 +105,10 @@ License: GPL-2+
 Comment:
  Using license as found in COPYING file.
 
+Files: man/mate-gsettings-toggle.1
+Copyright: 2014, Sander Sweers <infirit@gmail.com>
+License: GPL-2+
+
 Files: tools/mate-color-select.c
 Copyright: 2014, Stefano Karapetsas <stefano@karapetsas.com>
 License: GPL-2+
@@ -148,6 +152,44 @@ Comment:
  Appropriately assume either license found in COPYING or license found in
  COPYING.LIB file.
 
+Files: user-guide/*
+Copyright:
+ Andre Klapper  <a9016009@gmx.de>
+ Changwoo Ryu  <cwryu@debian.org>
+ Claude Paroz  <claude@2xlibre.net>
+ Daniel Nylander <po@danielnylander.se>
+ Gabor Kelemen  <kelemeng@mate.hu>
+ Hendrik Richter  <hendrikr@gnome.org>
+ Inaki Larranaga Murgoitio  <dooteo@euskalgnu.org>
+ Jorge Gonzalez  <jorgegonz@svn.gnome.org>
+ Leonardo Ferreira Fontenelle  <leonardof@gnome.org>
+ Luca Ferretti  <elle.uca@libero.it>
+ Mario Blättermann <mariobl@svn.gnome.org>
+ Matthias Clasen <mclasen@redhat.com>
+ Milo Casagrande  <milo@ubuntu.com>
+ Petr Kovar  <pknbe@volny.cz>
+ Shaun McCance  <shaunm@gnome.org>
+ Simos Xenitellis  <simos@gnome.org>
+ Takeshi AIHANA <takeshi.aihana@gmail.com>
+ Theppitak Karoonboonyanan  <thep@linux.thai.net>
+ Yannig Marchegay <yannig@marchegay.org>
+ Amanpreet Singh Alam <aalam@users.sf.net>
+ Andika Triwidada <andika@gmail.com>
+ Bakaoukas Nikolaos <nikolaosx1@gmail.com>
+ Bruno Brouard <annoa.b@gmail.com>
+ Duarte Loreto <happyguy_pt@hotmail.com>
+ Fran Dieguez <frandieguez@ubuntu.com>
+ Jakub Lepic <j.lepic@post.cz>
+ Khaled Hosny <khaledhosny@eglug.org>
+ Krasimir Chonov <mk2616@abv.bg>
+ Sergiy Gavrylov <sergiovana@bigmir.net>
+ Timo Jyrinki <timo.jyrinki@iki.fi>
+ Vasiliy Faronov <qvvx@yandex.ru>
+ Vincent van Adrighem <adrighem@gnome.org>
+ Yasumichi Akahoshi <yasumichi@vinelinux.org>
+ 朱涛 <bill_zt@sina.com>
+License: GFDL-1.1+
+
 Files: .tx/config
        docs/Makefile.am
        docs/reference/Makefile.am
@@ -171,6 +213,7 @@ Files: .tx/config
        schemas/org.mate.*.xml.in.in
        schemas/Makefile.am
        tools/Makefile.am
+       tools/mate-gsettings-toggle
        tools/mate-conf-import.desktop.in.in
        AUTHORS
        COPYING
@@ -250,3 +293,13 @@ License: Expat
  THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: GFDL-1.1+
+ Permission is granted to copy, distribute and/or modify this
+ document under the terms of the GNU Free Documentation
+ License (GFDL), Version 1.1 or any later version published
+ by the Free Software Foundation with no Invariant Sections,
+ no Front-Cover Texts, and no Back-Cover Texts.
+ .
+ On Debian systems, the complete text of the GNU Free Documentation License
+ version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
