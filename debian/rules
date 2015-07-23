@@ -7,7 +7,6 @@ DHFLAGS=--parallel
 
 override_dh_install:
 	rm -f debian/tmp/usr/lib/*/*.la 
-	rm -rf debian/tmp/usr/share/omf/
 	dh_install --fail-missing
 
 override_dh_installchangelogs:
