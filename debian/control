@@ -38,6 +38,7 @@ Depends: hicolor-icon-theme,
          ${misc:Depends},
          ${shlibs:Depends},
          python,
+         yelp,
 Breaks: mate-desktop-gnome,
 Replaces: mate-desktop-gnome,
 Description: Library with common API for various MATE modules
