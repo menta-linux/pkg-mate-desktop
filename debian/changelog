@@ -14,13 +14,32 @@ mate-desktop (1.10.1-1~exp2) UNRELEASED; urgency=medium
 
 mate-desktop (1.10.1-1~exp1) experimental; urgency=medium
 
+  [ Mike Gabriel ]
   * New upstream release.
   * debian/patches:
     + Drop 1001_desktop-entry-lacks-keywords.patch. Applied upstream.
   * debian/control:
     + Update Section (gir1.2-mate-desktop): introspection.
+    + Add D (mate-desktop): yelp.
+  * debian/copyright:
+    + Indentation cleanup, add more copyright holders for user-guide/*.
+    + Add copyright attribution for man/mate-color-select.1 and man/mpaste.1.
+  * debian/patches:
+    + Add 1001_fix-mate-user-guide-desktop-file.patch. Add missing main
+      category to Categories= field.
+  * lintian: Add override for desktop-command-not-in-package (yelp).
+  * man pages: Drop our mate-color-select.1 and mpaste.1 man pages. Now
+    provided upstream.
 
- -- Mike Gabriel <sunweaver@debian.org>  Fri, 17 Jul 2015 13:54:14 +0200
+  [ Martin Wimpress ]
+  * debian/copyright:
+    + Add copyright attributions for user-guide.
+  * debian/rules:
+    + Remove obsolete deletions.
+  * debian/mate-desktop-common.install
+    + Add usr/share/help.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 24 Jul 2015 23:39:58 +0200
 
 mate-desktop (1.10.0-1~exp1) experimental; urgency=low
 
