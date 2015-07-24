@@ -121,6 +121,13 @@ Files: tools/mpaste
 Copyright: 2013, Steve Zesch
 License: GPL-2+
 
+Files: man/mate-color-select.1
+       man/mpaste.1
+Copyright: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
 Files: libmate-desktop/test-ditem.c
        tools/mate-color-select.desktop.in.in
 Copyright: *No copyright*
