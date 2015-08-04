@@ -47,7 +47,7 @@ mate-desktop (1.10.0-1~exp1) experimental; urgency=low
   * New upstream release.
   * debian/control:
     + Remove obsolete build dependency rarian-compat.
-    + Remove obsolete build dependency libunique.    
+    + Remove obsolete build dependency libunique.
     + Add gir1.2-mate-desktop package.
     + Add Pre-Depends to libmate-desktop-2-17.
   * debian/copyright:
