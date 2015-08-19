@@ -1,3 +1,31 @@
+mate-desktop (1.10.1-2) unstable; urgency=medium
+
+  * Merge-in various changes from 1.10.1-1~exp1. Due to a forgotten
+    Git push action on my side, some changes had already arrived
+    in Debian experimental, but not in the packaging Git.
+
+    * debian/control:
+      + Add D (mate-desktop): yelp.
+    * debian/copyright:
+      + Indentation cleanup, add more copyright holders for user-guide/*.
+      + Add copyright attribution for man/mate-color-select.1 and man/mpaste.1.
+    * debian/patches:
+      + Add 1001_fix-mate-user-guide-desktop-file.patch. Add missing main
+        category to Categories= field.
+    * lintian: Add override for desktop-command-not-in-package (yelp).
+    * man pages: Drop our mate-color-select.1 and mpaste.1 man pages. Now
+      provided upstream.
+
+  * debian/control (and others):
+    + Add bin:package mate-user-guide to be more compliant with the way
+      GNOMEv2 shipped its user guide and also ease upgrade paths in Linux Mint.
+      (Closes: #793889).
+  * debian/control:
+    + Add versioned D (gir1.2-mate-desktop): libmate-desktop-2-17 (same
+      version). (Closes: #795251).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 20 Aug 2015 00:07:50 +0200
+
 mate-desktop (1.10.1-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
