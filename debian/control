@@ -185,6 +185,7 @@ Architecture: any
 Depends: ${gir:Depends},
          ${misc:Depends},
          ${shlibs:Depends},
+         libmate-desktop-2-17 (= ${binary:Version}),
 Description: GObject introspection data for the mate-desktop library
  The MATE component mate-desktop contains the libmate-desktop library, the
  mate-about program, as well as some desktop-wide documents.
