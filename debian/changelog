@@ -1,3 +1,9 @@
+mate-desktop (1.10.2-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 24 Aug 2015 15:38:25 +0100
+
 mate-desktop (1.10.1-2) unstable; urgency=medium
 
   * Merge-in various changes from 1.10.1-1~exp1. Due to a forgotten
