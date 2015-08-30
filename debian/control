@@ -23,7 +23,6 @@ Build-Depends: debhelper (>= 9),
                libxrandr-dev,
                mate-common (>= 1.10),
                python-dev,
-               python-support,
                yelp-tools,
 Standards-Version: 3.9.6
 Homepage: http://www.mate-desktop.org/
