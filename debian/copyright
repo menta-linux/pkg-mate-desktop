@@ -108,6 +108,7 @@ Comment:
 Files: man/mate-gsettings-toggle.1
 Copyright: 2014, Sander Sweers <infirit@gmail.com>
 License: GPL-2+
+
 Files: tools/mate-color-select.c
 Copyright: 2014, Stefano Karapetsas <stefano@karapetsas.com>
 License: GPL-2+
