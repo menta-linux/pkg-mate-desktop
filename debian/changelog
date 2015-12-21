@@ -1,8 +1,32 @@
-mate-desktop (1.12.1-1) UNRELEASED; urgency=medium
+mate-desktop (1.12.1-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+  * debian/mate-user-guide.{install,lintian-overrides}:
+    + Drop obsolete mate-user-guide files.
+  * debian/patches:
+    + Drop obsolete 1001_fix-mate-user-guide-desktop-file.patch.
+  * debian/mate-desktop-common.install:
+    + Add /usr/share/icons.
+  * debian/copyright:
+    + Update for new upstream release.
+  * debian/control:
+    + Drop mate-user-guide.
+    + Add to D (mate-desktop): mate-user-guide.
+    + Drop B-D: yelp-tools.
+    + Versioned B-D: mate-common (>= 1.12).
 
- -- Martin Wimpress <code@flexion.org>  Mon, 09 Nov 2015 10:07:02 +0000
+  [ Mike Gabriel ]
+  * debian/copyright:
+    + Format fix, add blank line between two blocks.
+    + Mention files in icons/, fix wildcard match for gsettings
+      XML files.
+    + Drop all references to mate-gsettings-toggle. The tool has been removed
+      from mate-desktop 1.12.x.
+  * debian/libmate-desktop-2-17.symbols:
+    + Update with one additional symbol provided since marco 1.12.x.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 21 Dec 2015 12:15:46 +0100
 
 mate-desktop (1.10.2-1) unstable; urgency=medium
 
