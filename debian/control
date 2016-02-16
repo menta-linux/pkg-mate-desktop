@@ -26,8 +26,8 @@ Build-Depends: debhelper (>= 9),
                python-dev,
 Standards-Version: 3.9.6
 Homepage: http://www.mate-desktop.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mate/mate-desktop.git;a=summary
-Vcs-Git: git://anonscm.debian.org/pkg-mate/mate-desktop.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-mate/mate-desktop.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-mate/mate-desktop.git
 
 Package: mate-desktop
 Architecture: any
