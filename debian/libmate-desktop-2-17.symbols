@@ -2,6 +2,23 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
 #MISSING: 1.10.0# _mate_desktop_init_i18n@Base 1.6.1
 #MISSING: 1.10.0# decode_edid@Base 1.6.1
 #MISSING: 1.10.0# make_display_name@Base 1.6.1
+#MISSING: 1.14.0# mate_bg_create_pixmap@Base 1.6.1
+#MISSING: 1.14.0# mate_bg_crossfade_set_end_pixmap@Base 1.6.1
+#MISSING: 1.14.0# mate_bg_crossfade_set_start_pixmap@Base 1.6.1
+#MISSING: 1.14.0# mate_bg_get_pixmap_from_root@Base 1.6.1
+#MISSING: 1.14.0# mate_bg_set_pixmap_as_root@Base 1.6.1
+#MISSING: 1.14.0# mate_bg_set_pixmap_as_root_with_crossfade@Base 1.6.1
+ mate_bg_create_surface@Base 1.14.0
+ mate_bg_crossfade_set_end_surface@Base 1.14.0
+ mate_bg_crossfade_set_start_surface@Base 1.14.0
+ mate_bg_get_surface_from_root@Base 1.14.0
+ mate_bg_set_surface_as_root@Base 1.14.0
+ mate_bg_set_surface_as_root_with_crossfade@Base 1.14.0
+ mate_color_button_get_rgba@Base 1.14.0
+ mate_color_button_set_rgba@Base 1.14.0
+ mate_desktop_gtk_style_get_dark_color@Base 1.14.0
+ mate_desktop_gtk_style_get_light_color@Base 1.14.0
+ mate_rr_labeler_get_rgba_for_output@Base 1.14.0
  mate_about_dialog_get_artists@Base 1.10.0
  mate_about_dialog_get_authors@Base 1.10.0
  mate_about_dialog_get_comments@Base 1.10.0
@@ -34,13 +51,10 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
  mate_about_dialog_set_wrap_license@Base 1.10.0
  mate_bg_changes_with_time@Base 1.6.1
  mate_bg_create_frame_thumbnail@Base 1.6.1
- mate_bg_create_pixmap@Base 1.6.1
  mate_bg_create_thumbnail@Base 1.6.1
  mate_bg_crossfade_get_type@Base 1.6.1
  mate_bg_crossfade_is_started@Base 1.6.1
  mate_bg_crossfade_new@Base 1.6.1
- mate_bg_crossfade_set_end_pixmap@Base 1.6.1
- mate_bg_crossfade_set_start_pixmap@Base 1.6.1
  mate_bg_crossfade_start@Base 1.6.1
  mate_bg_crossfade_stop@Base 1.6.1
  mate_bg_draw@Base 1.6.1
@@ -48,7 +62,6 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
  mate_bg_get_draw_background@Base 1.6.1
  mate_bg_get_filename@Base 1.6.1
  mate_bg_get_image_size@Base 1.6.1
- mate_bg_get_pixmap_from_root@Base 1.6.1
  mate_bg_get_placement@Base 1.6.1
  mate_bg_get_type@Base 1.6.1
  mate_bg_has_multiple_sizes@Base 1.6.1
@@ -63,8 +76,6 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
  mate_bg_set_color@Base 1.6.1
  mate_bg_set_draw_background@Base 1.6.1
  mate_bg_set_filename@Base 1.6.1
- mate_bg_set_pixmap_as_root@Base 1.6.1
- mate_bg_set_pixmap_as_root_with_crossfade@Base 1.6.1
  mate_bg_set_placement@Base 1.6.1
  mate_color_button_get_alpha@Base 1.10.0
  mate_color_button_get_color@Base 1.10.0
