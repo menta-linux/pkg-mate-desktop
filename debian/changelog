@@ -1,8 +1,17 @@
-mate-desktop (1.14.1-1) UNRELEASED; urgency=medium
+mate-desktop (1.14.1-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
+  * New upstream release.
+  * debian/copyright:
+    + Update copyright attributions.
+  * debian/control:
+    + Bump Standards: to 3.9.8. No changes needed.
 
- -- Martin Wimpress <code@flexion.org>  Sat, 21 May 2016 14:27:03 +0100
+  [ Mike Gabriel ]
+  * dbgsym: Don't build dbg:packages anymore.
+    See https://wiki.debian.org/AutomaticDebugPackages.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 29 May 2016 00:14:07 +0200
 
 mate-desktop (1.14.0-1) unstable; urgency=medium
 
