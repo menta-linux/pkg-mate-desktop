@@ -10,7 +10,7 @@ include /usr/share/dpkg/buildflags.mk
 	dh $@ $(DHFLAGS) --with python2
 
 override_dh_install:
-	rm -f debian/tmp/usr/lib/*/*.la 
+	rm -f debian/tmp/usr/lib/*/*.la
 	dh_install --fail-missing
 
 override_dh_installchangelogs:
