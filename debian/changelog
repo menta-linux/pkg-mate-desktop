@@ -1,12 +1,31 @@
-mate-desktop (1.16.0-1) UNRELEASED; urgency=medium
+mate-desktop (1.16.0-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+  * debian/copyright:
+    + Update copyright attributions.
+  * debian/rules:
+    + White space cleanup.
+  * debian/control:
+    + Make mate-user-guide Recommends. (LP: #1621570).
 
- -- Martin Wimpress <code@flexion.org>  Fri, 23 Sep 2016 10:46:46 +0100
+  [ Mike Gabriel ]
+  * debian/changelog:
+    + Fix missing changelog items for 1.15.1-0ubuntu1 upload.
+  * debian/control:
+    + Dependencies updated for MATE 1.16.
+  * debian/watch:
+    + Update version matching again to _not_ support development releases.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 30 Sep 2016 11:02:53 +0200
 
 mate-desktop (1.15.1-0ubuntu1) yakkety; urgency=medium
 
   * New upstream development release.
+  * debian/control:
+    + Dependencies updated for MATE 1.15.
+  * debian/watch:
+    + Update version matching to support development releases.
 
  -- Martin Wimpress <code@flexion.org>  Fri, 09 Sep 2016 13:04:46 +0100
 
