@@ -24,8 +24,7 @@ override_dh_auto_configure:
 		--disable-static \
 		--disable-schemas-compile \
 		--enable-gtk-doc \
-		--enable-mpaste \
-		--with-gtk=3.0
+		--enable-mpaste
 
 override_dh_strip:
 	dh_strip -pmate-desktop --dbgsym-migration='mate-desktop-dbg (<< 1.14.1-1~)'
