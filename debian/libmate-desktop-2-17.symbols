@@ -8,6 +8,7 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
 #MISSING: 1.14.0# mate_bg_get_pixmap_from_root@Base 1.6.1
 #MISSING: 1.14.0# mate_bg_set_pixmap_as_root@Base 1.6.1
 #MISSING: 1.14.0# mate_bg_set_pixmap_as_root_with_crossfade@Base 1.6.1
+#MISSING: 1.17.1# mate_rr_labeler_get_color_for_output@Base 1.6.1
  mate_bg_create_surface@Base 1.14.0
  mate_bg_crossfade_set_end_surface@Base 1.14.0
  mate_bg_crossfade_set_start_surface@Base 1.14.0
@@ -213,7 +214,6 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
  mate_rr_crtc_set_gamma@Base 1.6.1
  mate_rr_crtc_supports_rotation@Base 1.6.1
  mate_rr_error_quark@Base 1.6.1
- mate_rr_labeler_get_color_for_output@Base 1.6.1
  mate_rr_labeler_get_type@Base 1.6.1
  mate_rr_labeler_hide@Base 1.6.1
  mate_rr_labeler_new@Base 1.6.1
