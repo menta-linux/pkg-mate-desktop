@@ -1,3 +1,11 @@
+Description: Add gschema keys to support Global Menu. (LP: #1675956)
+Author: Martin Wimpress <martin@ubuntu-mate.org>
+Abstract:
+ These gschema keys were accidently not included in the mate-desktop
+ 1.18.0 release. This patch adds them so Global Menu integration can be
+ supported.
+
+
 diff --git a/schemas/org.mate.interface.gschema.xml.in b/schemas/org.mate.interface.gschema.xml.in
 index 72cb9b8..c80068c 100644
 --- a/schemas/org.mate.interface.gschema.xml.in
