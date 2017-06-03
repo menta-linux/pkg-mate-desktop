@@ -1,3 +1,11 @@
+mate-desktop (1.16.2-2) unstable; urgency=medium
+
+  * debian/rules:
+    + Add --with gir to DH options. Fixes missing dependencies in
+      gir1.2-mate-desktop. (Closes: #862172).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 03 Jun 2017 16:14:34 +0200
+
 mate-desktop (1.16.2-1) unstable; urgency=medium
 
   * New upstream release.
