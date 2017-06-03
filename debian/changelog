@@ -1,3 +1,11 @@
+mate-desktop (1.16.2-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Fix desktops look'n'feel with solid background color. (Closes:
+      #856027).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 28 Apr 2017 22:28:53 +0200
+
 mate-desktop (1.16.1-1) unstable; urgency=medium
 
   * New upstream release.
