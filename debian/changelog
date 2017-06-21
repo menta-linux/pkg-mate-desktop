@@ -1,3 +1,21 @@
+mate-desktop (1.18.0-1) UNRELEASED; urgency=medium
+
+  [ Aron Xu ]
+  * New upstream release
+
+  [ Martin Wimpress ]
+  * debian/rules: Remove obsolete --with-gtk=3.0
+  * debian/libmate-desktop-2-17.symbols: Update symbols for 1.17.
+  * debian/control: Dependencies updated for MATE 1.17.
+  * debian/control: Drop B-D for python. mpaste dropped upstream.
+  * debian/rules: Drop --with python2 and --enable-mpaste. mpaste dropped upstream.
+  * debian/copyright: Update copyright attributions.
+  * debian/control: Dependencies updated for MATE 1.18.
+  * debian/patches: Add 1000_global_menu_support.diff (LP: #1675956)
+  * add patch headers
+
+ -- Aron Xu <aron@debian.org>  Wed, 21 Jun 2017 19:51:59 +0800
+
 mate-desktop (1.16.2-2) unstable; urgency=medium
 
   * debian/rules:
