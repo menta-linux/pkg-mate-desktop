@@ -14,7 +14,15 @@ mate-desktop (1.18.0-1) UNRELEASED; urgency=medium
   * debian/patches: Add 1000_global_menu_support.diff (LP: #1675956)
   * add patch headers
 
- -- Aron Xu <aron@debian.org>  Wed, 21 Jun 2017 19:51:59 +0800
+  [ Vangelis Mouhtsis ]
+  * debian/compat:
+    + Update compat version.
+  * debian/control:
+    + Bump debhelper version to (>= 10).
+  * debian/rules:
+    + Add new block for override_dh_missing.
+
+ -- Vangelis Mouhtsis <vangelis@gnugr.org>  Sun, 02 Jul 2017 17:24:46 +0300
 
 mate-desktop (1.16.2-2) unstable; urgency=medium
 
