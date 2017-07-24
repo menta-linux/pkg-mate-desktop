@@ -1,4 +1,4 @@
-mate-desktop (1.18.0-1) UNRELEASED; urgency=medium
+mate-desktop (1.18.0-1) unstable; urgency=medium
 
   [ Aron Xu ]
   * New upstream release
@@ -8,7 +8,8 @@ mate-desktop (1.18.0-1) UNRELEASED; urgency=medium
   * debian/libmate-desktop-2-17.symbols: Update symbols for 1.17.
   * debian/control: Dependencies updated for MATE 1.17.
   * debian/control: Drop B-D for python. mpaste dropped upstream.
-  * debian/rules: Drop --with python2 and --enable-mpaste. mpaste dropped upstream.
+  * debian/rules: Drop --with python2 and --enable-mpaste. mpaste dropped
+    upstream.
   * debian/copyright: Update copyright attributions.
   * debian/control: Dependencies updated for MATE 1.18.
   * debian/patches: Add 1000_global_menu_support.diff (LP: #1675956)
@@ -24,7 +25,11 @@ mate-desktop (1.18.0-1) UNRELEASED; urgency=medium
   * debian/control:
     + Bump Standards-Version: to 4.0.0. No changes needed.
 
- -- Vangelis Mouhtsis <vangelis@gnugr.org>  Sun, 02 Jul 2017 17:24:46 +0300
+  [ Mike Gabriel ]
+  * debian/rules:
+    + debian/rules: Disable dh_autoreconf by empty override_dh_autoreconf target.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 24 Jul 2017 10:51:18 +0200
 
 mate-desktop (1.16.2-2) unstable; urgency=medium
 
