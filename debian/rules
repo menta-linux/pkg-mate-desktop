@@ -9,6 +9,8 @@ include /usr/share/dpkg/buildflags.mk
 %:
 	dh $@ $(DHFLAGS) --with gir
 
+override_dh_autoreconf:
+
 override_dh_missing:
 	dh_missing --fail-missing
 
