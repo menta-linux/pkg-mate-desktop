@@ -1,3 +1,23 @@
+mate-desktop (1.18.0-2) unstable; urgency=medium
+
+  [ Mike Gabriel ]
+  * Rename GIR package to match Debian Policy.
+  * debian/{control,compat}:
+    + Bump DH version level to 11.
+  * debian/watch:
+    + Use secure URL to obtain upstream sources.
+  * debian/libmate-desktop-2-17.symbols:
+    + Update symbols file for 1.18.0 release.
+
+  [ Vangelis Mouhtsis ]
+  * debian/control:
+    + Temporarily have pkg-mate-team ML under Uploaders:.
+    + Update Maintainer: field to debian-mate ML on lists.debian.org.
+    + Rename pretty name of our team -> Debian+Ubuntu MATE Packaging Team.
+    + Bump Standards-Version: to 4.1.3. No changes needed.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 24 Jan 2018 21:09:08 +0100
+
 mate-desktop (1.18.0-1) unstable; urgency=medium
 
   [ Aron Xu ]
