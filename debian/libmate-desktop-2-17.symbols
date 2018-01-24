@@ -57,6 +57,7 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
  mate_bg_crossfade_is_started@Base 1.6.1
  mate_bg_crossfade_new@Base 1.6.1
  mate_bg_crossfade_start@Base 1.6.1
+ mate_bg_crossfade_start_widget@Base 1.18.0
  mate_bg_crossfade_stop@Base 1.6.1
  mate_bg_draw@Base 1.6.1
  mate_bg_get_color@Base 1.6.1
