@@ -1,3 +1,10 @@
+mate-desktop (1.19.3-0ubuntu2) bionic; urgency=medium
+
+  * debian/patches:
+    + Add 0001_hidpi: Add HiDPI support.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 01 Feb 2018 06:59:13 -0800
+
 mate-desktop (1.19.3-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
