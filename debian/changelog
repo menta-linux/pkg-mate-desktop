@@ -1,17 +1,17 @@
-mate-desktop (1.20.0-0ubuntu1) UNRELEASED; urgency=medium
+mate-desktop (1.20.0-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
 
  -- Martin Wimpress <martin.wimpress@ubuntu.com>  Wed, 07 Feb 2018 14:03:55 +0000
 
-mate-desktop (1.19.3-0ubuntu2) UNRELEASED; urgency=medium
+mate-desktop (1.19.3-0ubuntu2) bionic; urgency=medium
 
   * debian/patches:
     + Add 0001_hidpi: Add HiDPI support.
 
  -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 01 Feb 2018 06:59:13 -0800
 
-mate-desktop (1.19.3-0ubuntu1) UNRELEASED; urgency=medium
+mate-desktop (1.19.3-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
 
