@@ -20,36 +20,36 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
  mate_desktop_gtk_style_get_dark_color@Base 1.14.0
  mate_desktop_gtk_style_get_light_color@Base 1.14.0
  mate_rr_labeler_get_rgba_for_output@Base 1.14.0
- mate_about_dialog_get_artists@Base 1.10.0
- mate_about_dialog_get_authors@Base 1.10.0
- mate_about_dialog_get_comments@Base 1.10.0
- mate_about_dialog_get_copyright@Base 1.10.0
- mate_about_dialog_get_documenters@Base 1.10.0
- mate_about_dialog_get_license@Base 1.10.0
- mate_about_dialog_get_logo@Base 1.10.0
- mate_about_dialog_get_logo_icon_name@Base 1.10.0
- mate_about_dialog_get_program_name@Base 1.10.0
- mate_about_dialog_get_translator_credits@Base 1.10.0
- mate_about_dialog_get_type@Base 1.10.0
- mate_about_dialog_get_version@Base 1.10.0
- mate_about_dialog_get_website@Base 1.10.0
- mate_about_dialog_get_website_label@Base 1.10.0
- mate_about_dialog_get_wrap_license@Base 1.10.0
- mate_about_dialog_new@Base 1.10.0
- mate_about_dialog_set_artists@Base 1.10.0
- mate_about_dialog_set_authors@Base 1.10.0
- mate_about_dialog_set_comments@Base 1.10.0
- mate_about_dialog_set_copyright@Base 1.10.0
- mate_about_dialog_set_documenters@Base 1.10.0
- mate_about_dialog_set_license@Base 1.10.0
- mate_about_dialog_set_logo@Base 1.10.0
- mate_about_dialog_set_logo_icon_name@Base 1.10.0
- mate_about_dialog_set_program_name@Base 1.10.0
- mate_about_dialog_set_translator_credits@Base 1.10.0
- mate_about_dialog_set_version@Base 1.10.0
- mate_about_dialog_set_website@Base 1.10.0
- mate_about_dialog_set_website_label@Base 1.10.0
- mate_about_dialog_set_wrap_license@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_artists@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_authors@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_comments@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_copyright@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_documenters@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_license@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_logo@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_logo_icon_name@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_program_name@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_translator_credits@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_type@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_version@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_website@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_website_label@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_get_wrap_license@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_new@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_artists@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_authors@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_comments@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_copyright@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_documenters@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_license@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_logo@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_logo_icon_name@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_program_name@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_translator_credits@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_version@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_website@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_website_label@Base 1.10.0
+#MISSING: 1.19.2# mate_about_dialog_set_wrap_license@Base 1.10.0
  mate_bg_changes_with_time@Base 1.6.1
  mate_bg_create_frame_thumbnail@Base 1.6.1
  mate_bg_create_thumbnail@Base 1.6.1
@@ -57,7 +57,7 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
  mate_bg_crossfade_is_started@Base 1.6.1
  mate_bg_crossfade_new@Base 1.6.1
  mate_bg_crossfade_start@Base 1.6.1
- mate_bg_crossfade_start_widget@Base 1.18.0
+ mate_bg_crossfade_start_widget@Base 1.19.2
  mate_bg_crossfade_stop@Base 1.6.1
  mate_bg_draw@Base 1.6.1
  mate_bg_get_color@Base 1.6.1
@@ -275,4 +275,4 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
  mate_rr_screen_refresh@Base 1.6.1
  mate_rr_screen_set_primary_output@Base 1.6.1
  mate_rr_screen_set_size@Base 1.6.1
- mate_show_about_dialog@Base 1.10.0
+#MISSING: 1.19.2# mate_show_about_dialog@Base 1.10.0
