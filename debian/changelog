@@ -1,17 +1,17 @@
-mate-desktop (1.20.0-0ubuntu1) bionic; urgency=medium
+mate-desktop (1.20.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
  -- Martin Wimpress <martin.wimpress@ubuntu.com>  Wed, 07 Feb 2018 14:03:55 +0000
 
-mate-desktop (1.19.3-0ubuntu2) bionic; urgency=medium
+mate-desktop (1.19.3-0ubuntu2) UNRELEASED; urgency=medium
 
   * debian/patches:
     + Add 0001_hidpi: Add HiDPI support.
 
  -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 01 Feb 2018 06:59:13 -0800
 
-mate-desktop (1.19.3-0ubuntu1) bionic; urgency=medium
+mate-desktop (1.19.3-1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
@@ -85,7 +85,7 @@ mate-desktop (1.16.0-1) unstable; urgency=medium
 
   [ Mike Gabriel ]
   * debian/changelog:
-    + Fix missing changelog items for 1.15.1-0ubuntu1 upload.
+    + Fix missing changelog items for 1.15.1-1 upload.
   * debian/control:
     + Dependencies updated for MATE 1.16.
   * debian/watch:
@@ -93,7 +93,7 @@ mate-desktop (1.16.0-1) unstable; urgency=medium
 
  -- Mike Gabriel <sunweaver@debian.org>  Fri, 30 Sep 2016 11:02:53 +0200
 
-mate-desktop (1.15.1-0ubuntu1) yakkety; urgency=medium
+mate-desktop (1.15.1-1) yakkety; urgency=medium
 
   * New upstream development release.
   * debian/control:
