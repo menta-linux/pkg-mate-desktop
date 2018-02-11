@@ -1,3 +1,14 @@
+mate-desktop (1.20.0-1) unstable; urgency=medium
+
+  [ Martin Wimpress ]
+  * debian/patches (already in 1.20.0-0ubuntu1):
+    + Drop 0001_hidpi.patch. Applied upstream.
+
+  [ Mike Gabriel ]
+  * Upload to Debian as is.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 11 Feb 2018 20:34:17 +0100
+
 mate-desktop (1.20.0-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
