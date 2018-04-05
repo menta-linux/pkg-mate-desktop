@@ -1,8 +1,24 @@
-mate-desktop (1.20.1-1) UNRELEASED; urgency=medium
+mate-desktop (1.20.1-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+  * debian/patches:
+    + Add 0001_fix_font_color.patch. Fix font-color for dark themes (LP:
+      #1706947)
 
- -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 26 Mar 2018 21:21:51 +0100
+  [ Mike Gabriel ]
+  * debian/control:
+    + Add to S (mate-desktop): mate-desktop-environment. Also add a note to the
+      LONG_DESCRIPTION, that explains how to install the full MATE desktop
+      environment. (Closes: #891986).
+    + Typo fix in LONG_DESCRIPTION.
+  * debian/copyright:
+    + Use secure URI for copyright format.
+    + Update copyright attributions.
+  * debian/source/lintian-overrides:
+    + Move to new/correct location.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 05 Apr 2018 12:49:21 +0200
 
 mate-desktop (1.20.0-1) unstable; urgency=medium
 
