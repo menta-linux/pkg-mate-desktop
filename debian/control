@@ -52,7 +52,7 @@ Description: Library with common API for various MATE modules
  The mate-about program helps with finding which version of MATE is installed.
  .
  NOTE: This package does not install the complete MATE desktop environment
- for you. The full desktop environment can be installed via the meta package
+ for you. The full desktop environment can be installed via the metapackage
  mate-desktop-environment.
 
 Package: mate-desktop-common
