@@ -26,8 +26,8 @@ Build-Depends: debhelper (>= 11~),
                mate-common (>= 1.18),
 Standards-Version: 4.1.3
 Homepage: http://www.mate-desktop.org/
-Vcs-Browser: https://anonscm.debian.org/git/pkg-mate/mate-desktop.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-mate/mate-desktop.git
+Vcs-Browser: https://salsa.debian.org/debian-mate-team/mate-desktop
+Vcs-Git: https://salsa.debian.org/debian-mate-team/mate-desktop.git
 
 Package: mate-desktop
 Architecture: any
