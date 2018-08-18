@@ -1,3 +1,11 @@
+mate-desktop (1.20.3-2) unstable; urgency=medium
+
+  * debian/patches:
+    + Add 2001_prefer-x-terminal-emulator.patch. Prefer x-terminal-emulator
+      over not-so-well-known terminal emulators. (Closes: #809742).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 19 Aug 2018 01:45:41 +0200
+
 mate-desktop (1.20.3-1) unstable; urgency=medium
 
   * New upstream version.
