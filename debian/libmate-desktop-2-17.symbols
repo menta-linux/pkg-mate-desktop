@@ -1,4 +1,5 @@
 libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
+* Build-Depends-Package: libmate-desktop-dev
 #MISSING: 1.10.0# _mate_desktop_init_i18n@Base 1.6.1
 #MISSING: 1.10.0# decode_edid@Base 1.6.1
 #MISSING: 1.10.0# make_display_name@Base 1.6.1
