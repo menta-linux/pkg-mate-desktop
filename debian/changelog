@@ -1,3 +1,11 @@
+mate-desktop (1.20.4-2) unstable; urgency=medium
+
+  * debian/patches:
+    + Add 0001_add-setting-for-xkb-modifier-latching.patch.
+      Add org.mate.accessibility-keyboard.stickykeys-latch-to-lock setting.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 16 Jan 2019 11:36:18 +0100
+
 mate-desktop (1.20.4-1) unstable; urgency=medium
 
   * New upstream release.
