@@ -176,11 +176,19 @@ libmate-desktop-2.so.17 libmate-desktop-2-17 #MINVER#
  mate_desktop_thumbnail_path_for_uri@Base 1.6.1
  mate_desktop_thumbnail_scale_down_pixbuf@Base 1.6.1
  mate_gdk_spawn_command_line_on_screen@Base 1.10.0
+ mate_get_all_locales@Base 1.22.1
+ mate_get_country_from_code@Base 1.22.1
+ mate_get_country_from_locale@Base 1.22.1
+ mate_get_language_from_code@Base 1.22.1
+ mate_get_language_from_locale@Base 1.22.1
  mate_gsettings_append_strv@Base 1.10.0
  mate_gsettings_is_valid_keyname@Base 1.10.0
  mate_gsettings_remove_all_from_strv@Base 1.10.0
  mate_gsettings_schema_exists@Base 1.8.0
  mate_gsettings_strv_to_gslist@Base 1.10.0
+ mate_language_has_translations@Base 1.22.1
+ mate_normalize_locale@Base 1.22.1
+ mate_parse_locale@Base 1.22.1
  mate_rr_config_applicable@Base 1.6.1
 #MISSING: 1.10.0# mate_rr_config_apply@Base 1.6.1
 #MISSING: 1.10.0# mate_rr_config_apply_from_filename@Base 1.6.1
