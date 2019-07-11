@@ -1,8 +1,23 @@
-mate-desktop (1.22.1-1) UNRELEASED; urgency=medium
+mate-desktop (1.22.1-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+  * debian/control:
+    + Add B-D: librsvg2-bin.
+  * debian/copyright:
+    + Update copyright attributions.
 
- -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 18 Mar 2019 20:30:22 +0000
+  [ Mike Gabriel ]
+  * debian/{compat,control}:
+    + Use debhelper-compat notation. Bump to DH compat level version 12.
+  * debian/control:
+    + Bump Standards-Version: to 4.4.0. No changes needed.
+  * debian/libmate-desktop-2-17.symbols:
+    + Update symbols file for this upstream release.
+  * debian/rules:
+    + Drop dbgsym-migration dh_strip override.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 11 Jul 2019 10:26:19 +0200
 
 mate-desktop (1.20.4-2) unstable; urgency=medium
 
