@@ -9,9 +9,16 @@ Files: libmate-desktop/mate-bg-crossfade.c
        libmate-desktop/mate-rr-config.h
        libmate-desktop/mate-rr.c
        libmate-desktop/mate-rr.h
-       libmate-desktop/mate-thumbnail-pixbuf-utils.c
 Copyright: 2002, Red Hat, Inc.
            2007-2008, Red Hat, Inc.
+License: LGPL-2+
+
+Files: libmate-desktop/mate-hsv.c
+       libmate-desktop/mate-hsv.h
+Copyright: Simon Budig <Simon.Budig@unix-ag.org>
+           Federico Mena-Quintero <federico@gimp.org>
+           Jonathan Blandford <jrb@redhat.com>
+           2019, Pablo Barciela
 License: LGPL-2+
 
 Files: libmate-desktop/mate-bg.c
@@ -36,6 +43,12 @@ Files: libmate-desktop/mate-desktop-item.c
        libmate-desktop/mate-desktop-item.h
 Copyright: 1999-2000, Red Hat, Inc.
            2001, Sid Vicious
+License: LGPL-2+
+
+Files: libmate-desktop/test-desktop-thumbnail.c
+       libmate-desktop/test-languages.c
+Copyright: 2012-2017, Red Hat, Inc.
+           2012, Bastien Nocera <hadess@hadess.net>
 License: LGPL-2+
 
 Files: libmate-desktop/mate-desktop-thumbnail.c
@@ -93,7 +106,7 @@ Copyright: 2007-2008, Red Hat, Inc.
 License: LGPL-2+
 
 Files: mate-about/*.c
-       mate-about/*.h
+       mate-about/*.h.in
 Copyright: 2011, Perberos <perberos@gmail.com>
 License: GPL-2+
 
@@ -147,14 +160,19 @@ Comment:
 Files: .travis.yml
        .tx/config
        .github/issue_template.md
+       .github/FUNDING.yml
+       abi-check
+       config.meson.h
        docs/Makefile.am
        docs/reference/Makefile.am
+       docs/reference/mate-desktop/meson.build
        docs/reference/mate-desktop/Makefile.am
        docs/reference/mate-desktop/mate-desktop-docs.sgml
        docs/reference/mate-desktop/mate-desktop-overrides.txt
        docs/reference/mate-desktop/mate-desktop-sections.txt
        docs/reference/mate-desktop/mate-desktop.types
        icons/Makefile.am
+       icons/meson.build
        icons/128x128/apps/mate-desktop.png
        icons/16x16/apps/mate-desktop.png
        icons/22x22/apps/mate-desktop.png
@@ -164,6 +182,9 @@ Files: .travis.yml
        icons/scalable/apps/mate-desktop-symbolic.svg
        icons/scalable/apps/mate-desktop.svg
        libmate-desktop/Makefile.am
+       libmate-desktop/meson.build
+       libmate-desktop/mate-desktop.abi
+       libmate-desktop/mate-desktop.map
        libmate-desktop/mate-desktop-2.0-uninstalled.pc.in
        libmate-desktop/mate-desktop-2.0.pc.in
        libmate-desktop/mate-languages.c
@@ -173,24 +194,31 @@ Files: .travis.yml
        libmate-desktop/test.c
        makepot
        man/Makefile.am
+       man/meson.build
        mate-about/Makefile.am
+       mate-about/meson.build
        mate-about/mate-about.desktop.in
+       mate-about/mate-version.xml.in
        po/LINGUAS
        po/POTFILES.*
+       po/Makevars
+       po/meson.build
+       schemas/org.mate.*.xml
        schemas/org.mate.*.xml.in
        schemas/Makefile.am
+       schemas/meson.build
        tools/Makefile.am
+       tools/meson.build
+       utils/post_install.py
        AUTHORS
-       COPYING
-       COPYING-DOCS
-       COPYING.LIB
        ChangeLog
        Makefile.am
+       meson.build
+       meson_options.txt
        NEWS
        README
        autogen.sh
        configure.ac
-       mate-version.xml.in.in
 Copyright: *No copyright*
 License: GPL-2+ or LGPL-2+
 Comment:
