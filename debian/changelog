@@ -1,19 +1,24 @@
-mate-desktop (1.24.0-1) UNRELEASED; urgency=medium
+mate-desktop (1.24.0-1) unstable; urgency=medium
 
   [ Mike Gabriel ]
   * debian/control:
     + Add Rules-Requires-Root: field and set it to no.
     + Bump Standards-Version: to 4.5.0. No changes needed.
+    + Update various B-Ds with minimal versions. Match <LIB>_REQUIRED
+      variables in configure.ac.
+    + Add B-D autoconf-archive.
   * debian/upstream/metadata:
     + Drop obsolete fields Contact: and Name:.
     + Append .git suffix to URLs in Repository: field.
+  * debian/libmate-desktop-2-17.symbols:
+    + Update symbols.
 
   [ Martin Wimpress ]
   * New upstream release.
   * debian/copyright:
     + Update copyright attributions.
 
- -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 10 Feb 2020 22:42:41 +0000
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 11 Feb 2020 08:20:20 +0100
 
 mate-desktop (1.22.2-1) unstable; urgency=medium
 
