@@ -1,3 +1,11 @@
+mate-desktop (1.24.0-2) unstable; urgency=medium
+
+  * debian/patches:
+    + Add 2002_reproducible-build.patch. Make builds reproducible. Thanks to
+      Chris Lamb for providing the patch. (Closes: #951357).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 20 Feb 2020 07:56:25 +0100
+
 mate-desktop (1.24.0-1) unstable; urgency=medium
 
   [ Mike Gabriel ]
