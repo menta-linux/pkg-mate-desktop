@@ -1,3 +1,9 @@
+mate-desktop (1.24.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Fri, 14 Aug 2020 14:07:44 +0100
+
 mate-desktop (1.24.0-2) unstable; urgency=medium
 
   * debian/patches:
