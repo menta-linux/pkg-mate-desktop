@@ -157,7 +157,8 @@ Comment:
  Appropriately assume either license found in COPYING or license found in
  COPYING.LIB file.
 
-Files: .travis.yml
+Files: .build.yml
+       .travis.yml
        .tx/config
        .github/issue_template.md
        .github/FUNDING.yml
