@@ -1,8 +1,17 @@
-mate-desktop (1.24.1-1) UNRELEASED; urgency=medium
+mate-desktop (1.24.1-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release
+  * debian/patches:
+    + Drop 2002_reproducible-build.patch. Applied upstream.
 
- -- Martin Wimpress <martin.wimpress@ubuntu.com>  Fri, 14 Aug 2020 14:07:44 +0100
+  [ Mike Gabriel ]
+  * debian/control:
+    + Bump DH compat level to version 13.
+  * debian/copyright:
+    + Update copyright attributions.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 19 Aug 2020 22:48:56 +0200
 
 mate-desktop (1.24.0-2) unstable; urgency=medium
 
