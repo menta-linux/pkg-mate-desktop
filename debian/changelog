@@ -1,3 +1,11 @@
+mate-desktop (1.24.1-2) unstable; urgency=medium
+
+  * debian/control:
+    + Switch B-D from libgdk-pixbuf2.0-dev to libgdk-pixbuf-2.0-dev.
+      (Closes: #976031).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 28 Nov 2020 17:16:56 +0100
+
 mate-desktop (1.24.1-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
