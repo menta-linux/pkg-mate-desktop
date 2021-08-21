@@ -1,3 +1,9 @@
+mate-desktop (1.26.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <code@wimpress.io>  Sat, 21 Aug 2021 16:28:07 +0100
+
 mate-desktop (1.24.1-2) unstable; urgency=medium
 
   * debian/control:
