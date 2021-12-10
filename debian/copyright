@@ -192,7 +192,6 @@ Files: .build.yml
        libmate-desktop/mate-languages.h
        libmate-desktop/mate-rr-private.h
        libmate-desktop/pnp.ids
-       libmate-desktop/test.c
        makepot
        man/Makefile.am
        man/meson.build
@@ -225,6 +224,11 @@ License: GPL-2+ or LGPL-2+
 Comment:
  Appropriately assume either license found in COPYING or license found in
  COPYING.LIB file.
+
+Files: git.mk
+Copyright: 2009, Red Hat, Inc.
+  2010,2011,2012,2013, Behdad Esfahbod
+License: public-domain
 
 Files: debian/*
 Copyright: 2011-2013, Stefano Karapetsas <stefano@karapetsas.com>
@@ -284,3 +288,8 @@ License: Expat
  THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: public-domain
+ Copying and distribution of this file, with or without modification,
+ is permitted in any medium without royalty provided the copyright
+ notice and this notice are preserved.
