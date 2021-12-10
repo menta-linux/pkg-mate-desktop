@@ -1,8 +1,23 @@
-mate-desktop (1.26.0-1) UNRELEASED; urgency=medium
+mate-desktop (1.26.0-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
 
- -- Martin Wimpress <code@wimpress.io>  Sat, 21 Aug 2021 16:28:07 +0100
+  [ Mike Gabriel ]
+  * debian/control:
+    + Bump Standards-Version: to 4.6.0. No changes needed.
+    + Drop transitional pkg 'gir1.2-mate-desktop' and drop
+      lintian override for this.
+  * debian/watch:
+    + Use format version 4.
+  * debian/{rules,libmate-desktop-doc.*}:
+    + Move GTK API documentation to pkg's doc folder.
+  * debian/libmate-desktop-doc.doc-base:
+    + Add file. Register API docs with doc-base system.
+  * debian/copyright:
+    + Update copyright attributions.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 10 Dec 2021 20:59:48 +0100
 
 mate-desktop (1.24.1-2) unstable; urgency=medium
 
