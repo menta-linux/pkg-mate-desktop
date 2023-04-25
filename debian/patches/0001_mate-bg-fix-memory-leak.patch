@@ -1,0 +1,30 @@
+From 2fbe25e7ad9c7678db2f3e34f76c9ee4e37d80d9 Mon Sep 17 00:00:00 2001
+From: rbuj <robert.buj@gmail.com>
+Date: Mon, 8 Nov 2021 12:44:21 +0100
+Subject: [PATCH] mate-bg: fix memory leak
+
+---
+ libmate-desktop/mate-bg.c | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+diff --git a/libmate-desktop/mate-bg.c b/libmate-desktop/mate-bg.c
+index e5119759e..62cc5e59e 100644
+--- a/libmate-desktop/mate-bg.c
++++ b/libmate-desktop/mate-bg.c
+@@ -3197,9 +3197,13 @@ mate_bg_changes_with_time (MateBG *bg)
+ 	if (!bg->filename)
+ 		return FALSE;
+ 
+-	show = get_as_slideshow (bg, bg->filename);
+-	if (show)
+-		return g_queue_get_length (show->slides) > 1;
++	if ((show = get_as_slideshow (bg, bg->filename)) != NULL) {
++		gboolean result;
++
++		result = (g_queue_get_length (show->slides) > 1) ? TRUE : FALSE;
++		slideshow_unref (show);
++		return result;
++	}
+ 
+ 	return FALSE;
+ }

@@ -1,1 +1,4 @@
 2001_prefer-x-terminal-emulator.patch
+0001_mate-bg-fix-memory-leak.patch
+0002_mate-desktop-thumbnail-fix-memory-leak.patch
+0003_revert-small-cleanup.patch
