@@ -1,3 +1,17 @@
+mate-desktop (1.26.0-2) unstable; urgency=medium
+
+  * debian/patches:
+    + Trivial rebase of 001_prefer-x-terminal-emulator.patch.
+    + Add patches 0001 and 0002. Fix two memory leaks.
+    + Add patch 0003 fix use-after-free issue. (Closes: #1033719).
+  * debian/control:
+    + In bin:pkg libmate-desktop-dev switch from libgdk-pixbuf2.0-dev
+      (deprecated) to libgdk-pixbuf-2.0-dev. Thanks, lintian.
+  * debian/copyright:
+    + Update copyright attribution for debian/ folder.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 25 Apr 2023 16:35:44 +0200
+
 mate-desktop (1.26.0-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
