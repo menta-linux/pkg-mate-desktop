@@ -3,7 +3,7 @@ Author: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
 
 --- a/libmate-desktop/mate-desktop-utils.c
 +++ b/libmate-desktop/mate-desktop-utils.c
-@@ -136,6 +136,8 @@
+@@ -137,6 +137,8 @@
  			term_argv[1] = g_strdup ("-x");
  		} else {
  			if (check == NULL)
