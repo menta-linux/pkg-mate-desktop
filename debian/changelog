@@ -1,8 +1,12 @@
-mate-desktop (1.26.1-1) UNRELEASED; urgency=medium
+mate-desktop (1.26.1-1) unstable; urgency=medium
 
   * New upstream release.
+  * debian/control:
+    + Bump Standards-Version: to 4.6.2. No changes needed.
+  * debian/patches:
+    + Drop patches 0001, 0002 and 0003. All applied upstream.
 
- -- Mike Gabriel <sunweaver@debian.org>  Mon, 10 Jul 2023 05:59:19 +0200
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 10 Jul 2023 06:04:57 +0200
 
 mate-desktop (1.26.0-2) unstable; urgency=medium
 
