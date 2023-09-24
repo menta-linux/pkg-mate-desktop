@@ -1,3 +1,9 @@
+mate-desktop (1.26.2-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 24 Sep 2023 17:46:32 +0200
+
 mate-desktop (1.26.1-1) unstable; urgency=medium
 
   * New upstream release.
