@@ -1,8 +1,12 @@
-mate-desktop (1.26.2-1) UNRELEASED; urgency=medium
+mate-desktop (1.26.2-1) unstable; urgency=medium
 
   * New upstream release.
+  * debian/mate-desktop-common.install:
+    + Add mate-portals.conf.
+  * debian/copyright:
+    + Update copyright attributions.
 
- -- Mike Gabriel <sunweaver@debian.org>  Sun, 24 Sep 2023 17:46:32 +0200
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 24 Sep 2023 17:55:34 +0200
 
 mate-desktop (1.26.1-1) unstable; urgency=medium
 
