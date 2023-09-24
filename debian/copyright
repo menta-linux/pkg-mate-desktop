@@ -210,6 +210,9 @@ Files: .build.yml
        tools/Makefile.am
        tools/meson.build
        utils/post_install.py
+       xdg-portal/Makefile.am
+       xdg-portal/mate-portals.conf
+       xdg-portal/meson.build
        AUTHORS
        ChangeLog
        Makefile.am
