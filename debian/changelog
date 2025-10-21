@@ -1,11 +1,13 @@
-mate-desktop (1.28.2-1) UNRELEASED; urgency=medium
+mate-desktop (1.28.2-1) unstable; urgency=medium
 
   * Team upload
   * New upstream release
+  * Build with meson
+  * Update debian/libmate-desktop-2-17t64.symbols
   * Restore changes from 1.26.2-1.2
   * debian/watch: Convert to Version: 5
 
- -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 21 Oct 2025 16:17:42 -0400
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 21 Oct 2025 16:40:19 -0400
 
 mate-desktop (1.26.2-2) unstable; urgency=medium
 
