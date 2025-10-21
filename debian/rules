@@ -3,10 +3,7 @@
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
-	dh $@ --without autoreconf
-
-override_dh_missing:
-	dh_missing --fail-missing
+	dh $@ --buildsystem=meson --without autoreconf
 
 execute_before_dh_install:
 	rm -f debian/tmp/usr/lib/*/*.la
@@ -17,10 +14,7 @@ override_dh_installchangelogs:
 	dh_installchangelogs NEWS
 
 override_dh_auto_configure:
-	# upstream tarball is without configure. autogen.sh will create it
-	NOCONFIGURE=1 ./autogen.sh
 	dh_auto_configure -- \
-		--disable-silent-rules \
-		--disable-static \
-		--disable-schemas-compile \
-		--enable-gtk-doc
+		-Dauto_features=enabled \
+		-Dgtk-doc=true \
+		-Dintrospection=true
