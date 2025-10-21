@@ -1,3 +1,12 @@
+mate-desktop (1.26.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Update gir handling
+  * Remove obsolete Breaks, Replaces
+  * Bump Standards Version to 4.7.2
+
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 21 Oct 2025 14:47:09 -0400
+
 mate-desktop (1.26.2-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
