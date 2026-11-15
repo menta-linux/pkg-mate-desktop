@@ -1,3 +1,14 @@
+mate-desktop (1.29.1-1menta1) unstable; urgency=medium
+
+  * Menta Linux rebuild: new upstream release 1.29.1 (development
+    snapshot).
+  * debian/watch: Track GitHub releases.
+  * debian/rules: Skip upstream ABI test (mate-desktop.abi missing from
+    release tarball).
+  * debian/libmate-desktop-2-17t64.symbols: Add new symbols from 1.29.1.
+
+ -- Menta Linux <packages@menta-linux.invalid>  Sat, 14 Nov 2026 17:04:18 -0700
+
 mate-desktop (1.28.2-1) unstable; urgency=medium
 
   * Team upload

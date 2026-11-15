@@ -192,6 +192,7 @@ libmate-desktop-2.so.17 libmate-desktop-2-17t64 #MINVER#
  mate_rr_output_get_current_mode@Base 1.6.1
  mate_rr_output_get_edid_data@Base 1.6.1
  mate_rr_output_get_height_mm@Base 1.6.1
+ mate_rr_output_get_hotplug_mode_update@Base 1.29.1
  mate_rr_output_get_id@Base 1.6.1
  mate_rr_output_get_is_primary@Base 1.6.1
  mate_rr_output_get_name@Base 1.6.1
@@ -238,4 +239,5 @@ libmate-desktop-2.so.17 libmate-desktop-2-17t64 #MINVER#
  mate_rr_screen_refresh@Base 1.6.1
  mate_rr_screen_set_primary_output@Base 1.6.1
  mate_rr_screen_set_size@Base 1.6.1
-
+ mate_start_systemd_scope@Base 1.29.1
+ mate_start_systemd_scope_finish@Base 1.29.1
