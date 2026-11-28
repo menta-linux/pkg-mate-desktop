@@ -1,3 +1,50 @@
+mate-desktop (1.29.3-1menta1) unstable; urgency=medium
+
+  * Menta Linux rebuild: new upstream release 1.29.3.
+  * Drop debian/patches/0001_wayland-monitor-info.patch: upstream PR #722
+    (MateMonitorInfo, per-monitor backgrounds, MATE Wayland protocols) is part
+    of 1.29.3.
+  * Keep 1001_startup-notification-time-types.patch (needed where time_t is not
+    long, e.g. 32-bit architectures; a no-op on amd64) and
+    2001_prefer-x-terminal-emulator.patch (Debian-specific, not in upstream).
+  * New binary package mate-wayland-protocols (Architecture: all,
+    Multi-Arch: foreign) owning the protocol XML files and the
+    mate-wayland-protocols.pc module, which libmate-desktop-dev used to ship.
+    It Breaks and Replaces libmate-desktop-dev (<< 1.29.3-1menta1~) for upgrades
+    from earlier Menta builds, and libmate-desktop-dev now Depends on it so that
+    existing build dependencies on libmate-desktop-dev keep working.
+  * debian/libmate-desktop-dev.install: no longer install the protocol files and
+    the whole usr/share/pkgconfig directory.
+  * debian/libmate-desktop-2-17t64.symbols: no change needed, the 1.29.3
+    library exports exactly the symbols already listed (they were first
+    provided by 1.29.1-1menta2).
+
+ -- Menta Linux <packages@menta-linux.invalid>  Fri, 27 Nov 2026 15:21:55 -0700
+
+mate-desktop (1.29.1-1menta2) unstable; urgency=medium
+
+  * Add upstream PR #722 (Wayland monitor information and per-monitor
+    backgrounds) as debian/patches/0001_wayland-monitor-info.patch.
+  * debian/rules: Require Wayland support (-Dwayland=enabled).
+  * debian/control: Build-depend on libwayland-dev, libwayland-bin.
+  * debian/libmate-desktop-dev.install: Ship mate-wayland-protocols
+    (XML files and pkg-config file).
+  * debian/libmate-desktop-2-17t64.symbols: Add mate_monitor_info_* and new
+    mate_bg_* symbols.
+
+ -- Menta Linux <packages@menta-linux.invalid>  Sun, 22 Nov 2026 21:10:00 -0700
+
+mate-desktop (1.29.1-1menta1) unstable; urgency=medium
+
+  * Menta Linux rebuild: new upstream release 1.29.1 (development
+    snapshot).
+  * debian/watch: Track GitHub releases.
+  * debian/rules: Skip upstream ABI test (mate-desktop.abi missing from
+    release tarball).
+  * debian/libmate-desktop-2-17t64.symbols: Add new symbols from 1.29.1.
+
+ -- Menta Linux <packages@menta-linux.invalid>  Sat, 14 Nov 2026 17:04:18 -0700
+
 mate-desktop (1.28.2-1) unstable; urgency=medium
 
   * Team upload

@@ -18,7 +18,10 @@ libmate-desktop-2.so.17 libmate-desktop-2-17t64 #MINVER#
  mate_bg_get_draw_background@Base 1.6.1
  mate_bg_get_filename@Base 1.6.1
  mate_bg_get_image_size@Base 1.6.1
+ mate_bg_get_monitor_id@Base 1.29.1-1menta2
+ mate_bg_get_monitor_settings@Base 1.29.1-1menta2
  mate_bg_get_placement@Base 1.6.1
+ mate_bg_get_settings_for_monitor@Base 1.29.1-1menta2
  mate_bg_get_surface_from_root@Base 1.14.0
  mate_bg_get_type@Base 1.6.1
  mate_bg_has_multiple_sizes@Base 1.6.1
@@ -144,6 +147,20 @@ libmate-desktop-2.so.17 libmate-desktop-2-17t64 #MINVER#
  mate_image_menu_item_new_with_mnemonic@Base 1.28.2
  mate_image_menu_item_set_image@Base 1.28.2
  mate_language_has_translations@Base 1.22.1
+ mate_monitor_info_get_background_owner@Base 1.29.1-1menta2
+ mate_monitor_info_get_default@Base 1.29.1-1menta2
+ mate_monitor_info_get_display_name@Base 1.29.1-1menta2
+ mate_monitor_info_get_fallback_id@Base 1.29.1-1menta2
+ mate_monitor_info_get_for_display@Base 1.29.1-1menta2
+ mate_monitor_info_get_id@Base 1.29.1-1menta2
+ mate_monitor_info_get_mirror_of@Base 1.29.1-1menta2
+ mate_monitor_info_get_type@Base 1.29.1-1menta2
+ mate_monitor_info_get_workarea@Base 1.29.1-1menta2
+ mate_monitor_info_has_capability@Base 1.29.1-1menta2
+ mate_monitor_info_has_protocol@Base 1.29.1-1menta2
+ mate_monitor_info_is_internal@Base 1.29.1-1menta2
+ mate_monitor_info_is_primary@Base 1.29.1-1menta2
+ mate_monitor_info_migrate_settings@Base 1.29.1-1menta2
  mate_normalize_locale@Base 1.22.1
  mate_parse_locale@Base 1.22.1
  mate_rr_config_applicable@Base 1.6.1
@@ -192,6 +209,7 @@ libmate-desktop-2.so.17 libmate-desktop-2-17t64 #MINVER#
  mate_rr_output_get_current_mode@Base 1.6.1
  mate_rr_output_get_edid_data@Base 1.6.1
  mate_rr_output_get_height_mm@Base 1.6.1
+ mate_rr_output_get_hotplug_mode_update@Base 1.29.1
  mate_rr_output_get_id@Base 1.6.1
  mate_rr_output_get_is_primary@Base 1.6.1
  mate_rr_output_get_name@Base 1.6.1
@@ -238,4 +256,5 @@ libmate-desktop-2.so.17 libmate-desktop-2-17t64 #MINVER#
  mate_rr_screen_refresh@Base 1.6.1
  mate_rr_screen_set_primary_output@Base 1.6.1
  mate_rr_screen_set_size@Base 1.6.1
-
+ mate_start_systemd_scope@Base 1.29.1
+ mate_start_systemd_scope_finish@Base 1.29.1

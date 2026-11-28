@@ -1,3 +1,7 @@
-Version: 5
-Source: https://git.mate-desktop.org/@PACKAGE@/
-Matching-Pattern: snapshot/@PACKAGE@-(\d\.[\d]+[02468]\.\d)@ARCHIVE_EXT@
+version=4
+# Upstream attaches one mate-desktop-X.Y.Z.tar.xz asset to each GitHub release. The release *tags* are read from the public releases page (no
+# API token and no API rate limit); the asset URL and the file name are derived from the tag. Exactly ONE capture group of version characters.
+opts="downloadurlmangle=s%.*/releases/tag/v([\d.]+)$%https://github.com/mate-desktop/mate-desktop/releases/download/v$1/mate-desktop-$1.tar.xz%,\
+filenamemangle=s%.*/releases/tag/v([\d.]+)$%mate-desktop-$1.tar.xz%" \
+https://github.com/mate-desktop/mate-desktop/releases \
+    .*/releases/tag/v([\d.]+)
